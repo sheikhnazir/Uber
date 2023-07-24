@@ -90,7 +90,6 @@ public class CustomerServiceImpl implements CustomerService {
 		driver.getTripBookingList().add(tripBooking);
 		driverRepository2.save(driver);
 
-		//tripBookingRepository.save(tripBooking); ab iski zrorat nhi hai as this is the child.
 		return tripBooking;
 	}
 
